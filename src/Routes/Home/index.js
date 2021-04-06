@@ -6,11 +6,8 @@ class Home extends React.Component{
     render() {
         return(
                 <>
-                        <Pages
-                           showHeader
-                        >
-
-                        </Pages>
+                    <Pages showHeader>
+                    </Pages>
                 </>
         );
     }

@@ -7,7 +7,7 @@ import { TwitterOutlined, FacebookOutlined, YoutubeOutlined, SearchOutlined } fr
 const Header = () => {
     return(
         <>
-            <Navbar bg="light" expand="lg">
+            <Navbar expand="lg">
                 <Navbar.Brand>
                     <a href=''><ImagesIcon src={Images.Logo}/></a>
                 </Navbar.Brand>
