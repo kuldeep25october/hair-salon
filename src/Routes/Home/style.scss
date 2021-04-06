@@ -68,6 +68,9 @@
         img {
                 width: 160px;
                 margin-right: 5rem;
+                width: null !important;
+                height: null !important;
+                object-fit: null !important;
             }
         }
     }
