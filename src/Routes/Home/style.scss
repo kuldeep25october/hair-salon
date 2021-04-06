@@ -1,4 +1,13 @@
 .navbar{
+    .navbar-brand{
+        a{
+        img {
+                width: 160px !important;
+                margin-right: 5rem;
+                height: auto !important;
+            }
+        }
+    }
     .navbar-collapse{
         .navbar-nav{
            a{
@@ -10,7 +19,6 @@
                     cursor: pointer;
                     color: red;
                 }
-    
             }
         }
         .header-right-side{
@@ -60,15 +68,6 @@
                         color: red;
                     }
                 }
-            }
-        }
-    }
-    .navbar-brand{
-        a{
-        img {
-                width: 160px !important;
-                margin-right: 5rem;
-                height: auto !important;
             }
         }
     }
