@@ -1,0 +1,80 @@
+.carousel{
+    .carousel-item {
+      height: 600px;
+    }
+    .carousel-control-prev{
+      right: 0%;
+      padding: 1.5rem;
+      margin-right: 10rem;
+      top: 30%;
+      border: 1px solid #f63971;
+      background:rgba(254,80,108,0.63);
+      bottom: unset;
+      width: unset;
+      left: unset;
+    }
+    .carousel-control-next{
+      right: 0%;
+      padding: 1.5rem;
+      margin-right: 10rem;
+      top: 44%;
+      border: 1px solid #f63971;
+      background:rgba(254,80,108,0.63);
+      bottom: unset;
+      width: unset;
+      left: unset;
+    }
+  }
+  .carousel-slide {
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    background: rgba(254,80,108,0.63);
+    left: 20%;
+  }
+  .carousel-item img {
+      position: absolute;
+      // object-fit:cover;
+      // top: 0;
+      // left: 0;
+      // min-height: 500px;
+  }
+  .carousel-caption{
+    text-shadow: unset !important;
+  }
+  .carousel-caption h3{
+    font-size: 115px;
+    font-family: fangsong;
+    font-weight: 500;
+    position: absolute;
+    top: -23rem;
+    left: 11rem;
+  }
+  .carousel-caption p{
+    font-size: 18px;
+    background: #cccc;
+    position: absolute;
+    bottom: -30px;
+    padding: 20px 24px;
+    text-align: left;
+    left: 22%;
+  }
+  ol.carousel-indicators {
+    display: unset;
+    bottom: 10%;
+    left: 10%;
+    margin: unset;
+  }
+  ol.carousel-indicators li{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    transition: 0.7s;
+  }
+  ol.carousel-indicators .active{
+      height: 20px;
+      transition: 0.7s;
+  }
+  // .site-carousel{
+  //   position: relative;
+  // }

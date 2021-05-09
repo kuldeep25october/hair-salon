@@ -13,9 +13,13 @@ const Pages = (props) =>{
                         <Header />
                 }
                     <Content>
-                        
+                            {
+                                props.children
+                            }
                     </Content>
+                {
 
+                }
             </Layout>
         </>
     )

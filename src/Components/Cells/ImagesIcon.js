@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImagesIcon = ({ className = '', src: image, size = 25, ...restProps }) => {
+const ImagesIcon = ({ className = '', src: image, size = 30, ...restProps }) => {
     return(
         <img
         className={className}

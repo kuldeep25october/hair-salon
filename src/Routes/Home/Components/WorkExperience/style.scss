@@ -1,0 +1,41 @@
+.WorkExperience{
+    padding: 0 40px;
+    margin-top: 3rem;
+}
+.WorkExperience ul li h1 {
+    font-size: 65px;
+    font-family: emoji;
+    font-weight: 600;
+    color: #000000db; 
+}
+  .WorkExperience ul li p {
+    font-size: 16px;
+    color: #000000d0;
+    margin-top: 1rem;
+    line-height: 26px; 
+}
+  .WorkExperience ul li a {
+    background: #F63269;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    height: 40px;
+    display: block;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    padding: 0 16px;
+    border-radius: 5px;
+    margin-top: 2rem;
+    transition: 0.7s; 
+}
+  .WorkExperience ul li a:hover {
+    background: #fff;
+    color: black;
+    border: 2px solid #F63269;
+    transition: 0.7s;
+    text-decoration: none; 
+}
+.WorkExperience img{
+    width: 100%;
+}

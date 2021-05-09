@@ -1,0 +1,24 @@
+.MainFeatures {
+    margin-top: 4rem;
+    padding: 0 40px; 
+    .Row{
+        display: flex;
+    }
+    .MainFeaturesImage {
+           position: relative;
+        img {
+            opacity: 0.8;
+            width: 100%; 
+        }
+        p   {
+            position: absolute;
+            font-size: 35px;
+            color: #ffffff;
+            font-family: 'playfair Display';
+            bottom: 0;
+            left: 35px;
+            font-weight: 600; 
+        }
+    }
+}
+    

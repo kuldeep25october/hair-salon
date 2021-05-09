@@ -8,7 +8,8 @@ const AppRoutes = () => {
         <>
             <BrowserRouter>
                 <Switch>
-                     <Route path={RouteConfig.LANDING} component={Home} />
+                     <Route exact path={RouteConfig.LANDING} component={Home} />
+                  
                 </Switch>
             </BrowserRouter>
         </>
