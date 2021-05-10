@@ -1,0 +1,43 @@
+.OurServices {
+    padding: 0 40px;
+    margin-top: 4rem; 
+}
+.OurServices h3 {
+    font-size: 45px;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'playfair Display';
+    margin-bottom: 4rem; 
+}
+.OurServices .ant-card {
+    margin-bottom: 4rem;
+    float: left; 
+}
+.OurServices .ant-card .ant-card-image img{
+    width: 100%;
+}
+.OurServices .ant-card .ant-card-body .ant-card-body-main ul li h2 {
+    font-family: playfair display;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000d1;
+    margin-top: 2rem; 
+}
+.OurServices .ant-card .ant-card-body .ant-card-body-main ul li p {
+    color: #454545;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+.OurServices .ant-card .ant-card-body .ant-card-body-main ul li a {
+    color: #fff;
+    background: #e43352;
+    height: 40px;
+    display: block;
+    float: left;
+    line-height: 40px;
+    padding: 0 32px;
+    border-radius: 3px;
+    font-size: 17px;
+}

@@ -5,6 +5,7 @@ import Slider from '../Home/Components/Carousel/index'
 import WorkExperience from '../Home/Components/WorkExperience/index'
 import Features from '../Home/Components/MainFeatures/index'
 import Testimonial from '../Home/Components/Testimonials/index'
+import Services from '../Home/Components/Services/index'
 
 class Home extends React.Component{
     render() {
@@ -15,6 +16,7 @@ class Home extends React.Component{
                         <WorkExperience />
                         <Features />
                         <Testimonial />
+                        <Services />
                     </Pages>
                 </>
         );
