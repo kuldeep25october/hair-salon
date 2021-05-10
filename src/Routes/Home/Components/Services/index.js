@@ -4,9 +4,12 @@ import './style.scss';
 const Services = () =>{
     return(
         <>
-            <div className="">
-                <div className=""></div>
+            <div className="OurServices">
+                <div className="row"></div>
+                   <h3>OUR SERVICES</h3>
+                    <div className="col-lg-4">
 
+                    </div>
             </div>
         </>
     )
