@@ -13,7 +13,7 @@ class Home extends React.Component{
     render() {
         return(
                 <>
-                    <Pages showHeader showFooter>
+                    <Pages showHeader>
                         <Slider />
                         <WorkExperience />
                         <Features />
