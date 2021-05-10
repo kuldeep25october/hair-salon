@@ -11,7 +11,7 @@ const Services = () =>{
                     <div className="col-lg-4">
                         <div className="ant-card">
                             <div className="ant-card-image">
-                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_11.jpg"/>
+                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_11.jpg" style={{width: '100%', height: '100%'}}/>
                             </div>
                             <div className="ant-card-body">
                                 <div className="ant-card-body-main">
@@ -37,7 +37,7 @@ const Services = () =>{
                     <div className="col-lg-4">
                         <div className="ant-card">
                             <div className="ant-card-image">
-                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_9.jpg"/>
+                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_9.jpg" style={{width: '100%', height: '100%'}}/>
                             </div>
                             <div className="ant-card-body">
                                 <div className="ant-card-body-main">
@@ -63,7 +63,7 @@ const Services = () =>{
                     <div className="col-lg-4">
                         <div className="ant-card">
                             <div className="ant-card-image">
-                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_1.jpg"/>
+                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_1.jpg" style={{width: '100%', height: '100%'}}/>
                             </div>
                             <div className="ant-card-body">
                                 <div className="ant-card-body-main">
@@ -89,7 +89,7 @@ const Services = () =>{
                     <div className="col-lg-4">
                         <div className="ant-card">
                             <div className="ant-card-image">
-                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_2.jpg"/>
+                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_2.jpg" style={{width: '100%', height: '100%'}}/>
                             </div>
                             <div className="ant-card-body">
                                 <div className="ant-card-body-main">
@@ -115,7 +115,7 @@ const Services = () =>{
                     <div className="col-lg-4">
                         <div className="ant-card">
                             <div className="ant-card-image">
-                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_12.jpg"/>
+                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_12.jpg" style={{width: '100%', height: '100%'}}/>
                             </div>
                             <div className="ant-card-body">
                                 <div className="ant-card-body-main">
@@ -141,7 +141,7 @@ const Services = () =>{
                     <div className="col-lg-4">
                         <div className="ant-card">
                             <div className="ant-card-image">
-                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_8.jpg"/>
+                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_8.jpg" style={{width: '100%', height: '100%'}}/>
                             </div>
                             <div className="ant-card-body">
                                 <div className="ant-card-body-main">

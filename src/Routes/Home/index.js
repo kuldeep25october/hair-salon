@@ -7,6 +7,7 @@ import Features from '../Home/Components/MainFeatures/index'
 import Testimonial from '../Home/Components/Testimonials/index'
 import Services from '../Home/Components/Services/index'
 import Tour from '../Home/Components/SalonTour/index'
+import LatestBlog from '../Home/Components/Blog/index'
 
 class Home extends React.Component{
     render() {
@@ -19,6 +20,7 @@ class Home extends React.Component{
                         <Testimonial />
                         <Services />
                         <Tour />
+                        <LatestBlog />
                     </Pages>
                 </>
         );
