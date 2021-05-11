@@ -13,13 +13,17 @@
 .LatestBlogs .BlogBody {
     box-shadow: 0 0 13px 3px #0000001c; 
 }
+.LatestBlogs .BlogBody .ant-card .ant-card-image img {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; 
+}
 .LatestBlogs .BlogBody .ant-card .ant-card-body .BlogMain {
     padding: 30px; 
 }
 .LatestBlogs .BlogBody .ant-card .ant-card-body .BlogMain li .BlogAvtar li img {
     border-radius: 50%;
-    margin-top: -7px;
-    margin-right: 11px; 
+    margin-top: -10px;
+    margin-right: 11px;
 }
 .LatestBlogs .BlogBody .ant-card .ant-card-body .BlogMain li .BlogAvtar li p {
     font-size: 12px;
@@ -63,4 +67,6 @@
 }
 .LatestBlogs .BlogBody .ant-card .ant-card-body .BlogMain a:hover {
     text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
 }
