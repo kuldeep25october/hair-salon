@@ -1,4 +1,5 @@
 import React from 'react'
+import './style.scss';
 import { Navbar, Nav } from 'react-bootstrap'
 import ImagesIcon from '../../../Components/Cells/ImagesIcon'
 import { Images } from '../../../Shared/Assets'
@@ -9,7 +10,7 @@ const Header = () => {
         <>
             <Navbar expand="lg">
                 <Navbar.Brand>
-                    <a href=''><ImagesIcon src={Images.Logo}/></a>
+                    <a href=''><ImagesIcon src={Images.Logo} style={{height: '33px'}}/></a>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

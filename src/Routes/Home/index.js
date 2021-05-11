@@ -1,5 +1,4 @@
 import React from 'react'
-import './style.scss';
 import Pages from '../../Components/HOC/Page/index'
 import Slider from '../Home/Components/Carousel/index'
 import WorkExperience from '../Home/Components/WorkExperience/index'

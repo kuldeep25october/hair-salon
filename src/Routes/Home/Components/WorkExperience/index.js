@@ -5,7 +5,7 @@ const WorkExperience = () =>{
     return(
         <>
             <div className="WorkExperience">
-            <div class="d-flex align-items-center">
+            <div class="align-items-center row">
                 <div className="col-lg-6">
                     <ul>
                         <li>
