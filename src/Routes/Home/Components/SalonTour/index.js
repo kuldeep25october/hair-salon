@@ -7,7 +7,7 @@ const Tour = () =>{
             <div className="SalonTour">
             <div className="row">
             <div className="col-lg-4">
-            <ul className="salon-tour-body text-center">
+            <ul className="salon-tour-body">
             <li>
             <h1>Our Salon Tour</h1>
             </li>
