@@ -12,15 +12,12 @@ const Pages = (props) =>{
                         props.showHeader &&
                         <Header />
                 }
+                                     
                     <Content>
                             {
                                 props.children
                             }
                     </Content>
-                {
-                        props.showFooter &&
-                        <Footer />
-                }
             </Layout>
         </>
     )
