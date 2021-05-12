@@ -1,9 +1,9 @@
-.Testimonials{
+.Testimonials {
     background-color: #f7f7f7;
     padding: 60px 40px;
     margin-top: 3rem; 
 }
-.Testimonials h2{
+.Testimonials h2 {
     font-size: 45px;
     text-transform: uppercase;
     line-height: 1.2em;
@@ -11,75 +11,75 @@
     font-family: 'playfair Display';
     margin-bottom: 4rem;
 }
-.row{
+.row {
     justify-content: center;
 }
-.TestimonialsCarousel.carousel-indicators{
-        bottom: -72px;
+.TestimonialsCarousel.carousel-indicators {
+    bottom: -72px;
 }
-.TestimonialsCarousel.carousel-indicators .carousel-indicators-active{
-        height: 0;
-        width: 19px;
-        border-radius: 50%;
-        background: #ccc;
-        margin-right: 8px;
+.TestimonialsCarousel.carousel-indicators .carousel-indicators-active {
+    height: 0;
+    width: 19px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-right: 8px;
 }
 .Testimonials .TestimonialsCarousel .carousel-main {
-            background: #fff;
-            box-shadow: 0 0 10px #00000011;
-            position: relative;
-            margin-top: 60px;
-            padding-bottom: 27px;
-            border-radius: 10px;
-            padding: 43px 27px; 
+    background: #fff;
+    box-shadow: 0 0 10px #00000011;
+    position: relative;
+    margin-top: 60px;
+    padding-bottom: 27px;
+    border-radius: 10px;
+    padding: 43px 27px; 
 }
 .Testimonials .TestimonialsCarousel .carousel-main img {
-                position: absolute;
-                border-radius: 50%;
-                top: -50px;
-                text-align: center;
-                left: 0;
-                right: 0;
-                margin: 0 auto; 
+    position: absolute;
+    border-radius: 50%;
+    top: -50px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
 }
 .Testimonials .TestimonialsCarousel .carousel-main ul li h3 {
-                    font-size: 15px;
-                    font-style: normal;
-                    line-height: 1.6em;
-                    color: #5b5b5b;
-                    font-family: sans-serif;
-                    font-weight: 400;
-                    margin-top: 3rem; 
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.6em;
+    color: #5b5b5b;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 3rem; 
 }
 .Testimonials .TestimonialsCarousel .carousel-main ul li h4 {
-                        color: #3e3e3e;
-                        font-size: 16px;
-                        line-height: 37px;
-                        font-weight: 600;
-                        font-family: 'playfair Display';
-                        margin-bottom: 0; 
+    color: #3e3e3e;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 600;
+    font-family: 'playfair Display';
+    margin-bottom: 0; 
 }
 .Testimonials .TestimonialsCarousel .carousel-main ul li p {
-                        font-size: 14px;
-                        text-transform: uppercase;
-                        color: #3e3e3e; 
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #3e3e3e; 
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-.Testimonials {
-  margin-top: -16px;
-}
-.Testimonials h2 {
-  font-size: 35px;
-  text-align: center;
-}
+  .Testimonials {
+    margin-top: -16px;
+  }
+  .Testimonials h2 {
+    font-size: 35px;
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-.Testimonials {
-  margin-top: -16px;
-}
-.Testimonials h2 {
-  font-size: 35px;
-  text-align: center;
-}
-}               
+  .Testimonials {
+    margin-top: -16px;
+  }
+  .Testimonials h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+}              
 
