@@ -4,25 +4,25 @@ import Header from '../../Molecules/Header/index'
 import Footer from '../../Molecules/Footer/index'
 
 const Content = Layout
-const Pages = (props) =>{
-    return(
+const Pages = (props) => {
+    return (
         <>
             <Layout>
                 {
-                        props.showHeader &&
-                        <Header />
+                    props.showHeader &&
+                    <Header />
                 }
-                                     
-                    <Content>
-                            {
-                                props.children
-                            }
-                    </Content>
+
+                <Content>
                     {
-                        props.showFooter &&
-                        <Footer />
+                        props.children
                     }
-                    
+                </Content>
+                {
+                    props.showFooter &&
+                    <Footer />
+                }
+
             </Layout>
         </>
     )
