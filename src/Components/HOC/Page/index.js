@@ -18,6 +18,11 @@ const Pages = (props) =>{
                                 props.children
                             }
                     </Content>
+                    {
+                        props.showFooter &&
+                        <Footer />
+                    }
+                    
             </Layout>
         </>
     )
