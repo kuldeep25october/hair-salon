@@ -34,11 +34,8 @@
   }
   .carousel-item img {
       position: absolute;
-      // object-fit:cover;
-      // top: 0;
-      // left: 0;
-      // min-height: 500px;
-  }
+     
+}
   .carousel-caption{
     text-shadow: unset !important;
   }
@@ -75,6 +72,77 @@
       height: 20px;
       transition: 0.7s;
   }
-  // .site-carousel{
-  //   position: relative;
-  // }
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .carousel-item {
+      height: 200px !important;
+    }
+    .carousel-indicators {
+      display: none !important; 
+    }
+    .carousel-slide {
+      display: none; 
+    }
+    .carousel-caption p {
+      display: none !important;
+    }
+    .carousel .carousel-control-prev {
+      right: 10%;
+      padding: 1rem;
+      margin-right: 10rem;
+      top: 65%;
+      border: 1px solid #f63971;
+      background: rgba(254, 80, 108, 0.63);
+      bottom: unset;
+      width: unset;
+      left: unset;
+}
+  .carousel .carousel-control-next {
+    right: -10%;
+    padding: 1rem;
+    margin-right: 10rem;
+    top: 65%;
+    border: 1px solid #f63971;
+    background: rgba(254, 80, 108, 0.63);
+    bottom: unset;
+    width: unset;
+    left: unset;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .carousel-item {
+      height: 200px !important;
+    }
+    .carousel-indicators {
+      display: none !important; 
+    }
+    .carousel-slide {
+      display: none; 
+    }
+    .carousel-caption p {
+      display: none !important;
+    }
+    .carousel .carousel-control-prev {
+      right: 10%;
+      padding: 1rem;
+      margin-right: 10rem;
+      top: 65%;
+      border: 1px solid #f63971;
+      background: rgba(254, 80, 108, 0.63);
+      bottom: unset;
+      width: unset;
+      left: unset;
+}
+    .carousel .carousel-control-next {
+      right: -10%;
+      padding: 1rem;
+      margin-right: 10rem;
+      top: 65%;
+      border: 1px solid #f63971;
+      background: rgba(254, 80, 108, 0.63);
+      bottom: unset;
+      width: unset;
+      left: unset;
+  }
+}
+ 
