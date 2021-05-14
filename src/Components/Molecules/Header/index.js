@@ -15,11 +15,11 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="">Home</Nav.Link>
-                        <Nav.Link href="">Services</Nav.Link>
-                        <Nav.Link href="">Stylists</Nav.Link>
-                        <Nav.Link href="">About Us</Nav.Link>
-                        <Nav.Link href="">Contact</Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/services">Services</Nav.Link>
+                        <Nav.Link href="/stylists">Stylists</Nav.Link>
+                        <Nav.Link href="/about">About Us</Nav.Link>
+                        <Nav.Link href="/contact">Contact</Nav.Link>
                     </Nav>
                     <div className='header-right-side ml-auto'>
                         <div className='socialMedia-menu'>

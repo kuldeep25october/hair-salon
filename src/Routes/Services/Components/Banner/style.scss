@@ -1,0 +1,21 @@
+.ServiceBanner {
+    height: 400px;
+    position: relative;
+    margin-top: 1rem;
+        .BannerHeading {
+            position: relative;
+        img {
+            opacity: 0.55;
+            width: 100%; 
+        }
+        h1 {
+            font-size: 55px;
+            letter-spacing: 5px;
+            font-family: 'Playfair Display';
+            font-weight: 500;
+            position: absolute;
+            top: 10rem;
+            left: 25rem;
+        }
+    }
+}
