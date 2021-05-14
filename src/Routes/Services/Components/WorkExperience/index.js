@@ -1,12 +1,14 @@
 import React from 'react'
 import './style.scss';
+import { Images } from '../../../../Shared/Assets';
+import { Row, Col } from 'react-bootstrap'
 
-const WorkExperience = () => {
+const WorkExp = () => {
     return (
         <>
-            <div className="WorkExperience">
-                <div class="align-items-center row">
-                    <div className="col-lg-6">
+            <div className="WorkExp">
+                <Row>
+                    <Col lg='6'>
                         <ul>
                             <li>
                                 <h1>20+ Years of Experience</h1>
@@ -20,13 +22,13 @@ const WorkExperience = () => {
                                 <a href="">Contact Us</a>
                             </li>
                         </ul>
-                    </div>
-                    <div className="col-lg-6">
-                        <img alt="icon" src={"https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_8.jpg"} />
-                    </div>
-                </div>
+                    </Col>
+                    <Col lg='6'>
+                        <img alt="icon" src={Images.HairSalon_8} />
+                    </Col>
+                </Row>
             </div>
         </>
     )
 }
-export default WorkExperience;
+export default WorkExp;

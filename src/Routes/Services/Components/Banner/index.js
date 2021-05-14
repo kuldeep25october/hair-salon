@@ -1,14 +1,15 @@
 import React from 'react'
 import './style.scss'
+import { Images } from '../../../../Shared/Assets'
 
 const Banner = () => {
     return (
         <>
             <div className="ServiceBanner">
-                    <div className="BannerHeading">
-                        <img alt="" src={"http://demo.theme-junkie.com/hair-salon/files/2020/11/page_title.jpg"} />
-                        <h1>OUR SERVICES</h1>
-                    </div>
+                <div className="BannerHeading">
+                    <img alt="" src={Images.ServicePageBanner} />
+                    <h1>OUR SERVICES</h1>
+                </div>
             </div>
         </>
     )

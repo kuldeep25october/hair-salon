@@ -1,158 +1,28 @@
 import React from 'react'
 import './style.scss';
+import MainServiceColumn from '../MainServices/Components/MainServiceColumn/index'
+import MainServiceColumnMap from '../../../../Constant/MainServicesColumnMap'
+import { Row } from 'react-bootstrap'
 
-const MainServices = () =>{
-    return(
+const MainServices = () => {
+    return (
         <>
-         <div className="ServicesOffered">
-                
-                   <div className="row">
-                    <div className="col-lg-4">
-                        <div className="ant-card">
-                            <div className="ant-card-image">
-                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_11.jpg" style={{width: '100%', height: '100%'}}/>
-                            </div>
-                            <div className="ant-card-body">
-                                <div className="ant-card-body-main">
-                                    <ul>
-                                        <li>
-                                            <h2>Hair Service</h2>
-                                        </li>
-                                        <li>
-                                            <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                                            </p>
-                                        </li>
-                                        
-                                    </ul>
-                                </div>
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="ant-card">
-                            <div className="ant-card-image">
-                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_9.jpg" style={{width: '100%', height: '100%'}}/>
-                            </div>
-                            <div className="ant-card-body">
-                                <div className="ant-card-body-main">
-                                    <ul>
-                                        <li>
-                                            <h2>Hair Service</h2>
-                                        </li>
-                                        <li>
-                                            <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                                            </p>
-                                        </li>
-                                        
-                                    </ul>
-                                </div>
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="ant-card">
-                            <div className="ant-card-image">
-                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_1.jpg" style={{width: '100%', height: '100%'}}/>
-                            </div>
-                            <div className="ant-card-body">
-                                <div className="ant-card-body-main">
-                                    <ul>
-                                        <li>
-                                            <h2>Hair Service</h2>
-                                        </li>
-                                        <li>
-                                            <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                                            </p>
-                                        </li>
-                                        
-                                    </ul>
-                                </div>
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="ant-card">
-                            <div className="ant-card-image">
-                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_2.jpg" style={{width: '100%', height: '100%'}}/>
-                            </div>
-                            <div className="ant-card-body">
-                                <div className="ant-card-body-main">
-                                    <ul>
-                                        <li>
-                                            <h2>Hair Service</h2>
-                                        </li>
-                                        <li>
-                                            <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                                            </p>
-                                        </li>
-                                        
-                                    </ul>
-                                </div>
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="ant-card">
-                            <div className="ant-card-image">
-                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_12.jpg" style={{width: '100%', height: '100%'}}/>
-                            </div>
-                            <div className="ant-card-body">
-                                <div className="ant-card-body-main">
-                                    <ul>
-                                        <li>
-                                            <h2>Hair Service</h2>
-                                        </li>
-                                        <li>
-                                            <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                                            </p>
-                                        </li>
-                                        
-                                    </ul>
-                                </div>
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="ant-card">
-                            <div className="ant-card-image">
-                                <img alt="" src="https://demo.theme-junkie.com/hair-salon/files/2020/11/hair-salon_8.jpg" style={{width: '100%', height: '100%'}}/>
-                            </div>
-                            <div className="ant-card-body">
-                                <div className="ant-card-body-main">
-                                    <ul>
-                                        <li>
-                                            <h2>Hair Service</h2>
-                                        </li>
-                                        <li>
-                                            <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                                            </p>
-                                        </li>
-                                        
-                                    </ul>
-                                </div>
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>   
+            <div className="ServicesOffered">
+                <Row>
+                    {
+                        MainServiceColumnMap.map((val, ind) => {
+                            return (
+                                <MainServiceColumn
+                                    key={ind}
+                                    imgsrc={val.imgsrc}
+                                    MainServ_h2={val.MainServ_h2}
+                                    MainServPara={val.MainServPara}
+                                />
+                            )
+                        })
+                    }
+                </Row>
+            </div>
         </>
     )
 }

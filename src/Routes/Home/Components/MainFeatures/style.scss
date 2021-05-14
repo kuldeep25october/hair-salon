@@ -1,30 +1,24 @@
 .MainFeatures {
     margin-top: 4rem;
-    padding: 0 20px; 
-    .Row{
-        display: flex;
-    }
-    .MainFeaturesImage {
-           position: relative;
-        img {
-            opacity: 0.8;
-            width: 100%; 
-        }
-        p   {
-            position: absolute;
-            font-size: 35px;
-            color: #ffffff;
-            font-family: 'playfair Display';
-            bottom: 0;
-            left: 25px;
-            font-weight: 600; 
-        }
-    }
+    padding: 0 40px;
+  }
+    .MainFeatures .MainFeaturesImage img {
+      opacity: 0.5;
+      width: 100%;
+  }
+  .MainFeatures .MainFeaturesImage p {
+    position: absolute;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: 'playfair Display';
+    bottom: 0;
+    left: 25px;
+    font-weight: 600;
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .MainFeatures {
         margin-top: 4rem;
-        padding: 0px 0px;
+        padding: 0px 20px;
       }
       .MainFeatures .Row {
         display: block;
@@ -36,7 +30,7 @@
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .MainFeatures {
         margin-top: 4rem;
-        padding: 0px 0px;
+        padding: 0px 20px;
       }
       .MainFeatures .Row {
         display: block;
