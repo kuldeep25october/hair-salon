@@ -11,20 +11,7 @@
     font-family: 'playfair Display';
     margin-bottom: 4rem;
 }
-.row {
-    justify-content: center;
-}
-.TestimonialsCarousel.carousel-indicators {
-    bottom: -72px;
-}
-.TestimonialsCarousel.carousel-indicators .carousel-indicators-active {
-    height: 0;
-    width: 19px;
-    border-radius: 50%;
-    background: #ccc;
-    margin-right: 8px;
-}
-.Testimonials .TestimonialsCarousel .carousel-main {
+.Testimonials .carousel-main {
     background: #fff;
     box-shadow: 0 0 10px #00000011;
     position: relative;
@@ -33,7 +20,7 @@
     border-radius: 10px;
     padding: 43px 27px; 
 }
-.Testimonials .TestimonialsCarousel .carousel-main img {
+.Testimonials .carousel-main img {
     position: absolute;
     border-radius: 50%;
     top: -50px;
@@ -41,8 +28,9 @@
     left: 0;
     right: 0;
     margin: 0 auto; 
+    border: 1px solid
 }
-.Testimonials .TestimonialsCarousel .carousel-main ul li h3 {
+.Testimonials .carousel-main ul li h3 {
     font-size: 15px;
     font-style: normal;
     line-height: 1.6em;
@@ -51,7 +39,7 @@
     font-weight: 400;
     margin-top: 3rem; 
 }
-.Testimonials .TestimonialsCarousel .carousel-main ul li h4 {
+.Testimonials .carousel-main ul li h4 {
     color: #3e3e3e;
     font-size: 16px;
     line-height: 37px;
@@ -59,7 +47,7 @@
     font-family: 'playfair Display';
     margin-bottom: 0; 
 }
-.Testimonials .TestimonialsCarousel .carousel-main ul li p {
+.Testimonials .carousel-main ul li p {
     font-size: 14px;
     text-transform: uppercase;
     color: #3e3e3e; 
@@ -81,5 +69,5 @@
     font-size: 35px;
     text-align: center;
   }
-}              
+}           
 

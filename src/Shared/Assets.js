@@ -10,5 +10,8 @@ export const Images = {
     HairSalon_12: require('../Assets/Images/hair-salon_12.webp').default,
     HairSalon_8: require('../Assets/Images/hair-salon_8.webp').default,
     ServicePageBanner: require('../Assets/Images/service_page_banner.webp').default,
-    HairSalon_4: require('../Assets/Images/hair-salon_4.jpg').default
+    HairSalon_4: require('../Assets/Images/hair-salon_4.jpg').default,
+    HairSalon_10: require('../Assets/Images/hair-salon_10.webp').default,
+    BlogAvatar: require('../Assets/Images/avatar.jpeg').default,
+    TestAvatar: require('../Assets/Images/woman_2.webp').default,    
 }

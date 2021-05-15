@@ -8,6 +8,9 @@ const Services = () => {
     return (
         <>
             <div className="OurServices">
+                <Row style={{justifyContent: 'center'}}>
+                    <h3>OUR SERVICES</h3>
+                </Row>
                 <Row>
                     {
                         ServiceColumnMap.map((val, ind) => {

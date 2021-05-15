@@ -9,6 +9,7 @@ const FeatureColumn = (props) => {
                     <img alt="icon" src={props.imgsrc} />
                     <p>{props.featpara}</p>
                 </div>
+               
             </Col>
         </>
     )
