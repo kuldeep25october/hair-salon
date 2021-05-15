@@ -16,3 +16,19 @@
 .ServicesOffered .ant-card .ant-card-body .ant-card-body-main ul li p {
     font-size: 16px;
 }
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .ServicesOffered {
+        padding: 60px 5px;
+    }
+    .ServicesOffered .ant-card {
+        padding-bottom: 0.5rem;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .ServicesOffered {
+        padding: 60px 5px;
+    }
+    .ServicesOffered .ant-card {
+        padding-bottom: 0.5rem;
+    }
+}

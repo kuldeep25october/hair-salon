@@ -15,3 +15,23 @@
             left: 25rem;
         }
     }
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+        .ServiceBanner .BannerHeading img {
+          height: 150px;
+        }
+        .ServiceBanner .BannerHeading h1 {
+            font-size: 30px;
+            top: 3.5rem;
+            left: 3.5rem;
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        .ServiceBanner .BannerHeading img {
+          height: 150px;
+        }
+        .ServiceBanner .BannerHeading h1 {
+            font-size: 30px;
+            top: 3.5rem;
+            left: 3.5rem;
+        }
+    }
