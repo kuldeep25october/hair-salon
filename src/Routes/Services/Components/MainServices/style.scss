@@ -1,7 +1,12 @@
 .ServicesOffered {
-    padding: 60px 40px;
+    padding: 0 40px;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
-.ServicesOffered .ant-card .ant-card-body .ant-card-body-main ul li h2 {
+.ServicesOffered .ant-card{
+    margin-bottom: 30px;
+}
+.ServicesOffered .ant-card .ant-card-body h2 {
     font-family: 'playfair display';
     font-size: 28px;
     font-weight: 500;
@@ -13,13 +18,13 @@
     text-align: center;
     padding: 30px;    
 }
-.ServicesOffered .ant-card .ant-card-body .ant-card-body-main ul li p {
+.ServicesOffered .ant-card .ant-card-body p {
     font-size: 14px;
     text-align: center;
     margin-bottom: 0;
     color: #fff;
 }
-.ServicesOffered .ant-card .ant-card-body .ant-card-body-main ul {
+.ServicesOffered .ant-card .ant-card-body   {
     margin-bottom: 0;
 }
 
@@ -33,11 +38,11 @@
     .ServicesOffered .ant-card .ant-card-body {
         padding: 25px;
     }
-    .ServicesOffered .ant-card .ant-card-body .ant-card-body-main ul li h2 {
+    .ServicesOffered .ant-card .ant-card-body h2 {
         font-size: 30px;
         margin-top: 0px;
     }
-    .ServicesOffered .ant-card .ant-card-body .ant-card-body-main ul li p {
+    .ServicesOffered .ant-card .ant-card-body p {
         margin-top: 1rem;
     }
 }
@@ -51,11 +56,11 @@
     .ServicesOffered .ant-card .ant-card-body {
         padding: 25px;
     }
-    .ServicesOffered .ant-card .ant-card-body .ant-card-body-main ul li h2 {
+    .ServicesOffered .ant-card .ant-card-body h2 {
         font-size: 30px;
         margin-top: 0px;
     }
-    .ServicesOffered .ant-card .ant-card-body .ant-card-body-main ul li p {
+    .ServicesOffered .ant-card .ant-card-body p {
         margin-top: 1rem;
     }
 }

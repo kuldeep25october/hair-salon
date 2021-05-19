@@ -10,22 +10,12 @@ const MainServiceColumn = (props) => {
                         <img alt="" src={props.imgsrc} style={{ width: '100%', height: '100%' }} />
                     </div>
                     <div className="ant-card-body">
-                        <div className="ant-card-body-main">
-                            <ul>
-                                <li>
-                                    <h2>{props.MainServ_h2}</h2>
-                                </li>
-                                <li>
-                                    <p>{props.MainServPara}</p>
-                                </li>
-                                
-                            </ul>
-                        </div>
+                        <h2>{props.MainServ_h2}</h2>
+                        <p>{props.MainServPara}</p>
                         <div>
                         </div>
                     </div>
                 </div>
-
             </Col>
         </>
     )
