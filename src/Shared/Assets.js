@@ -13,5 +13,7 @@ export const Images = {
     HairSalon_4: require('../Assets/Images/hair-salon_4.jpg').default,
     HairSalon_10: require('../Assets/Images/hair-salon_10.webp').default,
     BlogAvatar: require('../Assets/Images/avatar.jpeg').default,
-    TestAvatar: require('../Assets/Images/woman_2.webp').default,    
+    TestAvatar: require('../Assets/Images/woman_2.webp').default, 
+    HairSalon_5: require('../Assets/Images/hair-salon_5.webp').default, 
+    HairSalon_3: require('../Assets/Images/hair-salon_3.jpg').default, 
 }
