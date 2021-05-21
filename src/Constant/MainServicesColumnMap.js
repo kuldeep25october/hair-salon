@@ -5,7 +5,6 @@ const MainServiceColumnMap = [
         imgsrc: Images.HairSalon_11,
         MainServ_h2: "Hair Style",
         MainServPara: "A hairstyle, hairdo, or haircut refers to the styling of hair, usually on the human scalp.",
-       
     },
     {
         imgsrc: Images.HairSalon_12,

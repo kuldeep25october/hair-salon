@@ -6,8 +6,8 @@ const StylistColumn = (props) => {
     return (
         <>
             <Col lg="4">
-                <div className="ant-card">
-                    <div className="content">
+                <div className="content">
+                    <div className="ant-card">
                         <div className="ant-card-image">
                             <img alt="" src={props.imgsrc} style={{ width: '100%', height: '100%' }} />
                         </div>

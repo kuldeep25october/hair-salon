@@ -12,31 +12,25 @@
     font-family: 'playfair Display';
     margin-bottom: 4rem; 
 }
-.StylistInfo .ant-card{
-    margin-bottom: 30px;
-}
-.StylistInfo .ant-card .ant-card-body h2 {
+.StylistInfo .content .ant-card-body h2 {
     font-family: 'playfair display';
     font-size: 25px;
     font-weight: 500;
     color: #000;
     margin-bottom: 10px;
 }
-.StylistInfo .ant-card .ant-card-body {
+.StylistInfo .content .ant-card-body {
     border: 1px solid #dcd9d9;
     text-align: center;
     padding: 30px;    
 }
-.StylistInfo .ant-card .ant-card-body p {
+.StylistInfo .content .ant-card-body p {
     font-size: 16px;
     text-align: center;
     margin-bottom: 0;
     color: #6c6c6c;
 }
-.StylistInfo .ant-card .ant-card-body {
-    margin-bottom: 0;
-}
-.content {
+.ant-card{
     position: relative;
 }
 .content .content-overlay {
@@ -95,7 +89,11 @@
 }
 .fadeIn-bottom {
     top: 77%;
-}  
+}
+.content:hover .ant-card-body {
+    border-bottom-color:#000;
+    border-bottom-style: solid;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .StylistInfo {
