@@ -1,9 +1,9 @@
-.StylistInfo {
+.HairStylistInfo {
     padding: 0 40px;
     padding-top: 60px;
     padding-bottom: 20px;
 }
-.StylistInfo h3 {
+.HairStylistInfo h3 {
     font-size: 45px;
     text-transform: uppercase;
     line-height: 1.2em;
@@ -12,21 +12,20 @@
     font-family: 'playfair Display';
     margin-bottom: 4rem; 
 }
-.StylistInfo .content .ant-card-body h2 {
+.HairStylistInfo .content .ant-card-body h2 {
     font-family: 'playfair display';
     font-size: 25px;
     font-weight: 500;
     color: #000;
     margin-bottom: 10px;
 }
-.StylistInfo .content .ant-card-body {
+.HairStylistInfo .content .ant-card-body {
     border: 1px solid #dcd9d9;
     text-align: center;
     padding: 30px;    
 }
-.StylistInfo .content .ant-card-body p {
+.HairStylistInfo .content .ant-card-body p {
     font-size: 16px;
-    text-align: center;
     margin-bottom: 0;
     color: #6c6c6c;
 }
@@ -96,38 +95,38 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-    .StylistInfo {
+    .HairStylistInfo {
         padding: 60px 5px;
     }
-    .StylistInfo .ant-card {
+    .HairStylistInfo .ant-card {
         padding-bottom: 0.5rem;
     }
-    .StylistInfo .ant-card .ant-card-body {
+    .HairStylistInfo .ant-card .ant-card-body {
         padding: 25px;
     }
-    .StylistInfo .ant-card .ant-card-body h2 {
+    .HairStylistInfo .ant-card .ant-card-body h2 {
         font-size: 30px;
         margin-top: 0px;
     }
-    .StylistInfo .ant-card .ant-card-body p {
+    .HairStylistInfo .ant-card .ant-card-body p {
         margin-top: 1rem;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .StylistInfo {
+    .HairStylistInfo {
         padding: 60px 5px;
     }
-    .StylistInfo .ant-card {
+    .HairStylistInfo .ant-card {
         padding-bottom: 0.5rem;
     }
-    .StylistInfo .ant-card .ant-card-body {
+    .HairStylistInfo .ant-card .ant-card-body {
         padding: 25px;
     }
-    .StylistInfo .ant-card .ant-card-body h2 {
+    .HairStylistInfo .ant-card .ant-card-body h2 {
         font-size: 30px;
         margin-top: 0px;
     }
-    .StylistInfo .ant-card .ant-card-body p {
+    .HairStylistInfo .ant-card .ant-card-body p {
         margin-top: 1rem;
     }
 }

@@ -16,6 +16,7 @@ const MainServices = () => {
                                 <MainServiceColumn
                                     key={ind}
                                     imgsrc={val.imgsrc}
+                                    antcardbg={val.antcardbg}
                                     MainServ_h2={val.MainServ_h2}
                                     MainServPara={val.MainServPara}
                                 />
