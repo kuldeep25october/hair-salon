@@ -1,7 +1,6 @@
 import React from 'react'
 import './style.scss';
 import { Row, Col } from 'react-bootstrap'
-import { Images } from '../../../../Shared/Assets';
 
 const OurSalonTour = () => {
     return (

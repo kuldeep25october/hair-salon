@@ -1,9 +1,7 @@
-.container-fluid{
-    padding: 0 !important;
+.StylistCollage {
+    padding: 10px 0px; 
+    display: flex;
 }
-.container-fluid img{
-    width: 100%;
-    // padding-left: 2px;
-    // padding-right: 2px;
-    // padding-bottom: 2px;
+.StylistCollage img {
+    width: 100%; 
 }
