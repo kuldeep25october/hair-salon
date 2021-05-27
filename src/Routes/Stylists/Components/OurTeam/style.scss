@@ -97,10 +97,12 @@
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .StylistInfo {
-        padding: 60px 5px;
+        padding: 0px 20px;
+        padding-top: 60px;
+        padding-bottom: 40px;
     }
-    .StylistInfo .ant-card {
-        padding-bottom: 0.5rem;
+    .StylistInfo .content {
+        padding-bottom: 40px;
     }
     .StylistInfo .ant-card .ant-card-body {
         padding: 25px;
@@ -112,13 +114,20 @@
     .StylistInfo .ant-card .ant-card-body p {
         margin-top: 1rem;
     }
+    .StylistInfo h3 {
+        font-size: 40px;
+        margin-bottom: 3rem;
+    } 
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .StylistInfo {
-        padding: 60px 5px;
+        padding: 0px 20px;
+        padding-top: 60px;
+        padding-bottom: 40px;
     }
-    .StylistInfo .ant-card {
-        padding-bottom: 0.5rem;
+    .StylistInfo .content {
+        padding-bottom: 40px;
     }
     .StylistInfo .ant-card .ant-card-body {
         padding: 25px;
@@ -130,4 +139,9 @@
     .StylistInfo .ant-card .ant-card-body p {
         margin-top: 1rem;
     }
+    .StylistInfo h3 {
+        font-size: 40px;
+    }
+    
+   
 }

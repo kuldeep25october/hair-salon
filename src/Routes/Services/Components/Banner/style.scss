@@ -1,37 +1,38 @@
-.ServiceBanner .BannerHeading {
-            position: relative;
-        img {
-            opacity: 0.55;
-            width: 100%; 
-            height: 350px;
-        }
-        h1 {
-            font-size: 55px;
-            letter-spacing: 5px;
-            font-family: 'Playfair Display';
-            font-weight: 500;
-            position: absolute;
-            top: 9rem;
-            left: 25rem;
-        }
+.ServiceBanner {
+    padding: 0 40px;
+    background-image: url(http://demo.theme-junkie.com/hair-salon/files/2020/11/page_title.jpg);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: 350px;
     }
-    @media only screen and (min-width: 320px) and (max-width: 767px) {
-        .ServiceBanner .BannerHeading img {
-          height: 150px;
-        }
-        .ServiceBanner .BannerHeading h1 {
-            font-size: 30px;
-            top: 3.5rem;
-            left: 3.5rem;
-        }
+.ServiceBanner p {
+    font-size: 55px;
+    letter-spacing: 5px;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    position: absolute;
+    top: 9rem;
+    left: 25rem;
     }
-    @media only screen and (min-width: 768px) and (max-width: 1023px) {
-        .ServiceBanner .BannerHeading img {
-          height: 150px;
-        }
-        .ServiceBanner .BannerHeading h1 {
-            font-size: 30px;
-            top: 3.5rem;
-            left: 3.5rem;
-        }
-    }
+    // @media only screen and (min-width: 320px) and (max-width: 767px) {
+    //     .ServiceBanner  img {
+    //       height: 150px;
+    //     }
+    //     .ServiceBanner  p {
+    //         font-size: 30px;
+    //         top: 3.5rem;
+    //         left: 3.5rem;
+    //     }
+    // }
+    // @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    //     .ServiceBanner  img {
+    //       height: 150px;
+    //     }
+    //     .ServiceBanner  p {
+    //         font-size: 30px;
+    //         top: 3.5rem;
+    //         left: 3.5rem;
+    //     }
+    // }
+    
+    
