@@ -5,6 +5,7 @@ import Home from './Home/index'
 import Services from './Services/index'
 import Stylists from './Stylists/index'
 import AboutUs from './About Us/index'
+import Contact from './Contact/index'
 
 
 const AppRoutes = () => {
@@ -16,6 +17,7 @@ const AppRoutes = () => {
                     <Route exact path={RouteConfig.SERVICES} component={Services} />
                     <Route exact path={RouteConfig.STYLISTS} component={Stylists} />
                     <Route exact path={RouteConfig.ABOUT} component={AboutUs} />
+                    <Route exact path={RouteConfig.CONTACT} component={Contact} />
 
                 </Switch>
             </BrowserRouter>
