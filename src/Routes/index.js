@@ -1,17 +1,18 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import RouteConfig from '../Configure/RouteConfig'
+import { RouteConfig } from '../Configure/RouteConfig'
 import Home from './Home/index'
 import Services from './Services/index'
 import Stylists from './Stylists/index'
 import AboutUs from './About Us/index'
 import Contact from './Contact/index'
+import RouterService from '../Service/RouterService'
 
 
 const AppRoutes = () => {
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter ref={RouterService.setBrowserHistoryRef}>
                 <Switch>
                     <Route exact path={RouteConfig.LANDING} component={Home} />
                     <Route exact path={RouteConfig.SERVICES} component={Services} />

@@ -1,16 +1,41 @@
 .ContactBanner {
     padding: 0 40px;
     background-image: url(http://demo.theme-junkie.com/hair-salon/files/2020/11/page_title.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.55;
     padding-top: 3rem;
     padding-bottom: 3rem;
     height: 350px;
     }
-.ContactBanner p {
+.ContactBannerTitle p {
     font-size: 55px;
     letter-spacing: 5px;
     font-family: 'Playfair Display';
     font-weight: 500;
     position: absolute;
-    top: 9rem;
-    left: 25rem;
+    top: 13rem;
+    left: 26rem;
     }
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+        .ContactBanner {
+          height: 150px;
+        }
+        .ContactBannerTitle  p {
+            font-size: 30px;
+            top: 8.5rem;
+            left: 4.5rem;
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        .ContactBanner  {
+          height: 150px;
+        }
+        .ContactBannerTitle  p {
+            font-size: 30px;
+            top: 8.5rem;
+            left: 4.5rem;
+        }
+    }
+    
+    

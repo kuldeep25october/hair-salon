@@ -4,6 +4,8 @@ import { Navbar, Nav } from 'react-bootstrap'
 import ImagesIcon from '../../../Components/Cells/ImagesIcon'
 import { Images } from '../../../Shared/Assets'
 import { TwitterOutlined, FacebookOutlined, YoutubeOutlined, SearchOutlined } from '@ant-design/icons'
+import { RouteConfig } from '../../../Configure/RouteConfig'
+import Router from  '../../../Service/RouterService'
 
 const Header = () => {
     return (
@@ -15,11 +17,11 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/services">Services</Nav.Link>
-                        <Nav.Link href="/stylists">Stylists</Nav.Link>
-                        <Nav.Link href="/about">About Us</Nav.Link>
-                        <Nav.Link href="/contact">Contact</Nav.Link>
+                        <Nav.Link onClick={()=> Router.pushRoute(RouteConfig.LANDING)}>Home</Nav.Link>
+                        <Nav.Link onClick={()=> Router.pushRoute(RouteConfig.SERVICES)}>Services</Nav.Link>
+                        <Nav.Link onClick={()=> Router.pushRoute(RouteConfig.STYLISTS)}>Stylists</Nav.Link>
+                        <Nav.Link onClick={()=> Router.pushRoute(RouteConfig.ABOUT)}>About Us</Nav.Link>
+                        <Nav.Link onClick={()=> Router.pushRoute(RouteConfig.CONTACT)}>Contact</Nav.Link>
                     </Nav>
                     <div className='header-right-side ml-auto'>
                         <div className='socialMedia-menu'>

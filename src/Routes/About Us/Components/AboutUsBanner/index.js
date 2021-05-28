@@ -5,9 +5,9 @@ import { Images } from '../../../../Shared/Assets'
 const AboutUsBanner = () => {
     return (
         <>
-            <div className="aboutUsBanner">
-                <img alt="" src={Images.ServicePageBanner} />
-                <h1>ABOUT US</h1>
+            <div className="aboutUsBanner"></div>
+            <div className='aboutUsBannerTitle'>
+                <p>ABOUT US</p>
             </div>
         </>
     )
