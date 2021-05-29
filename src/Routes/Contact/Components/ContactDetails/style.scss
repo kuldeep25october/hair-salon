@@ -3,51 +3,67 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.ContactDetails ul li h1 {
+.ContactDetails h1 {
     font-size: 40px;
     font-family: 'Playfair Display';
     font-weight: 500;
     color: #000000db;
-    margin-bottom: 10px; 
+    margin-bottom: 15px; 
 }
-.ContactDetails ul li p {
+.ContactDetails  p {
    font-size: 17px;
-   color: #000000d0;
    line-height: 26px;
    margin-bottom: 3rem; 
 }
-.ContactDetails .ContactInfo{
-    position: relative;
-}
-.ContactDetails .ContactInfo li .anticon svg{
+
+.ContactDetails .ContactInfo .anticon svg{
     font-size: 50px;
     padding: 10px;
     background-color: #F63269;
-    border-radius: 50%;
-    margin-right: 15px;
+    border-radius: 35%;
+    margin-right: 10px;
 }
-.ContactDetails .ContactInfo li h2{
+.ContactDetails .ContactInfo h2{
     font-size: 18px;
     line-height: 15px;
-    position: absolute;
-    left: 4.5rem;
-    top: 2px;
+    
 }
-.ContactDetails .ContactInfo li p{
-    position: absolute;
-    left: 4.5rem;
-    top: 1.5rem;
+
+.ContactDetails .contactForm {
+    padding-left: 40px;
 }
-.ContactDetails .contactForm li p {
+.ContactDetails .contactForm p {
     margin-bottom: 1rem;
 }
-.ContactDetails .contactForm li input {
+.ContactDetails .contactForm input {
     height: 50px;
     border-radius: 0.3rem;
     border: 0.1rem solid #e2e4e8;
     box-shadow: 0 3px 2px #00000005;
     font-size: 1.5rem;
     padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+.ContactDetails .contactForm  #formMsg{
+    height: 15rem;
+    border-radius: 0.3rem;
+    border: 0.1rem solid #e2e4e8;
+    box-shadow: 0 3px 2px #00000005;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    width: 100%;
+}
+.ContactDetails .contactForm  #sbmtBtn {  
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+    padding: 0 3rem;
+    margin-top: 2rem;
+    &:hover{
+        background: #F63269;
+    }
 }
 
 

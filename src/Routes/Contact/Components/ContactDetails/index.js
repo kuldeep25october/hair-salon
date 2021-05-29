@@ -9,43 +9,41 @@ const ContactDetails = () => {
             <div className="ContactDetails">
                 <Row>
                     <Col lg='6'>
-                        <ul>
-                            <li>
                                 <h1>Get In Touch</h1>
-                            </li>
-
-                            <li>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                            </li>
+                                <address className="ContactInfo">
 
-                            <li>
-                                <ul className="ContactInfo">
-                                    <li>
-                                        <EnvironmentOutlined />
-                                    </li>
+                                <EnvironmentOutlined />
+                                <h2>Address</h2>
+                                <p>27 Division St, New York, USA</p><br/>
 
-                                    <li>
-                                        <h2>Address</h2>
-                                    </li>
-
-                                    <li>
-                                        <p>27 Division St, New York, USA</p>
-                                    </li>
-                                </ul>
-
-                            </li>
-                        </ul>
+                                <PhoneOutlined />
+                                <h2>Phone</h2>
+                                <p>1-677-124-44227</p><br/>
+                                <PhoneOutlined />
+                                <h2>Phone</h2>
+                                <p>1-677-124-44228</p><br/>
+                                <MailOutlined />
+                                <h2>Email</h2>
+                                <p>email@salon.com</p><br/>
+                                <MailOutlined />
+                                <h2>Email</h2>
+                                <p>support@salon.com</p><br/>
+                                </address>
+             
                     </Col>
                     <Col lg='6'>
-                        <ul className='contactForm'>
-                            <li>
-                                <p>Your Name (required)</p>
-                            </li>
-                            <li>
-                                <input type="text" class="input" value="" />
-                            </li>
-
-                        </ul>
+                        <div className='contactForm'>
+                            <p>Your Name (required)</p>
+                            <input type="text" /><br/><br/>
+                            <p>Your Email (required)</p>
+                            <input type="text" /><br/><br/>
+                            <p>Subject</p>
+                            <input type="text" /><br/><br/>
+                            <p>Your Message</p>
+                            <input id='formMsg' type="text" /><br/>
+                            <input id='sbmtBtn' type="button" value="SEND"/>
+                        </div>
                     </Col>
 
                 </Row>
