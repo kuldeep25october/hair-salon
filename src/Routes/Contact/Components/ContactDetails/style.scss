@@ -1,7 +1,7 @@
-.ContactDetails{
+.ContactDetails {
     padding: 0px 80px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 .ContactDetails h1 {
     font-size: 40px;
@@ -10,25 +10,29 @@
     color: #000000db;
     margin-bottom: 15px; 
 }
-.ContactDetails  p {
-   font-size: 17px;
-   line-height: 26px;
-   margin-bottom: 3rem; 
+.ContactDetails p {
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 3rem; 
+ }
+ .ContactDetails .ContactInfo .anticon {
+    float: left;
+    margin-right: 10px;
 }
-
-.ContactDetails .ContactInfo .anticon svg{
+.ContactDetails .ContactInfo .anticon svg {
     font-size: 50px;
     padding: 10px;
     background-color: #F63269;
     border-radius: 35%;
     margin-right: 10px;
 }
-.ContactDetails .ContactInfo h2{
+.ContactDetails .ContactInfo h2 {
     font-size: 18px;
     line-height: 15px;
-    
 }
-
+.ContactDetails .ContactInfo p {
+    margin-bottom: 1.5rem;
+}
 .ContactDetails .contactForm {
     padding-left: 40px;
 }
@@ -42,9 +46,9 @@
     box-shadow: 0 3px 2px #00000005;
     font-size: 1.5rem;
     padding: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
-.ContactDetails .contactForm  #formMsg{
+.ContactDetails .contactForm .formMsg{
     height: 15rem;
     border-radius: 0.3rem;
     border: 0.1rem solid #e2e4e8;
@@ -63,6 +67,79 @@
     margin-top: 2rem;
     &:hover{
         background: #F63269;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .ContactMap {
+        padding: 0px 10px;
+        padding-top: 40px;
+        padding-bottom: 10px;        
+    }
+    .ContactDetails {
+        padding: 20px 10px;
+    }
+    .ContactDetails h1 {
+        font-size: 35px;
+        padding-left: .5rem;
+    }
+    .ContactDetails p {
+        font-size: 16px;
+        margin-bottom: 3rem;
+        padding-left: .5rem;
+    }
+    .ContactDetails .ContactInfo {
+        display: grid;
+    }
+    .ContactDetails .ContactInfo .anticon {
+        margin-bottom: 1rem;
+        margin-right: 0px !important;
+    }
+    .ContactDetails .ContactInfo h2 {
+       text-align: center;
+    }
+    .ContactDetails .ContactInfo p {
+        text-align: center;  
+        margin-bottom: 3rem;  
+}
+    .ContactDetails .contactForm {
+         padding: 0px 10px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .ContactMap {
+        padding: 0px 10px;
+        padding-top: 40px;
+        padding-bottom: 10px;        
+    }
+    .ContactDetails {
+        padding: 20px 10px;
+    }
+    .ContactDetails h1 {
+        font-size: 35px;
+        padding-left: .5rem;
+    }
+    .ContactDetails p {
+        font-size: 16px;
+        margin-bottom: 3rem;
+        padding-left: .5rem;
+    }
+    .ContactDetails .ContactInfo {
+        display: grid;
+    }
+    .ContactDetails .ContactInfo .anticon {
+        margin-bottom: 1rem;
+        margin-right: 0px !important;
+    }
+    .ContactDetails .ContactInfo h2 {
+       text-align: center;
+    }
+    .ContactDetails .ContactInfo p {
+        text-align: center;  
+        margin-bottom: 3rem;  
+}
+    .ContactDetails .contactForm {
+         padding: 0px 10px;
     }
 }
 
